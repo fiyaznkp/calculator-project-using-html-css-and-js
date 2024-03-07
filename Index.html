@@ -8,6 +8,32 @@
 </head>
 <body>
     <h1>CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <p>Casio</p>
+            <input type="text" id="screen"> 
+            <br>
+            <input type='button' value="7" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="8" class="buttons numbers" onclick="btnClick(value)" >
+            <input type='button' value="0" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="/" class="buttons operators" onclick="btnClick(value)">
+            <br>
+            <input type='button' value="4" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="5" class="buttons numbers" onclick="btnClick(value)" >
+            <input type='button' value="6" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="*" class="buttons operators" onclick="btnClick(value)">
+            <br>
+            <input type='button' value="1" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="2" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="3" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="+" class="buttons operators" onclick="btnClick(value)" >
+            <br>
+            <input type='button' value="c" class="buttons clear" onclick="clearScreen()">
+            <input type='button' value="0" class="buttons numbers" onclick="btnClick(value)">
+            <input type='button' value="=" class="buttons result" onclick="findResult()">
+            <input type='button' value="-" class="buttons operators" onclick="btnClick(value)">
+        </form>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
